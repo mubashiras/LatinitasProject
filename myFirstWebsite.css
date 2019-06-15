@@ -1,0 +1,59 @@
+body{background-color:  #E5E7E9
+
+ 
+}
+
+.special{
+text-align:center;
+font-family:impact;
+}
+
+
+h1{
+font-size:24pt;
+text-decoration:underline;
+}
+
+p{
+font-family:cambria;
+}
+
+h2{
+font-family:impact;
+}
+
+h3{
+font-family:impact;
+  
+}
+
+ul{
+font-family:cambria;  
+}
+
+.item{
+	display: inline-block;
+	text-align: center;
+	margin-right: 40px;
+}
+
+.thumbnail {
+	width: 200px;
+}
+
+.caption{
+	margin: 10px 0 0 0;
+
+}
+
+#mysection {
+   border-color:#808080 ;
+   border-width: 2px;
+   border-style: solid; 
+   text-align: center;
+   padding: 40px;
+   margin: 50px;
+   background-color:#808080;
+ 
+
+}
