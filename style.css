@@ -2,11 +2,12 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    padding: 2em;
+
 }
 
 main {
 flex: 1 0 auto;
+padding: 2em;
 }
 
 div.buttonWrapper {
@@ -18,9 +19,12 @@ div.button {
     border: 3px solid black ;
     border-radius: 5px;
     margin: 2.5%;
-    width: 5%;
-    height: 9%;
+    width: 150px;
+    height: 80px;
     text-align: center;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -28,5 +32,24 @@ div.button {
 div.button:hover {
 background-color: silver;
 color: black;
+
+}
+
+.headshot {
+
+    width: 60%;
+    height: 90%;
+}
+
+.profileWrapper{
+ display:flex;
+ flex-direction: row-reverse;
+
+}
+
+.icon{
+
+    width:100px;
+    height:100px;
 
 }
